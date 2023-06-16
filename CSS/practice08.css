@@ -1,0 +1,29 @@
+.h3-1:hover{
+    background-color: black;
+    color: white;
+}
+
+textarea#textarea1:focus{
+    background-color: rgb(255, 192, 203, 0.2);
+    outline-color: black;
+}
+
+input#red:checked + label{
+    background-color: red;
+    color: white;
+}
+
+input#blue:checked + label{
+    background-color: blue;
+    color: white;
+}
+
+input#yellow:checked + label{
+    background-color: yellow;
+    color: black;
+}
+
+button:active {
+    background-color: rgb(128, 128, 128, 0.3);
+    color: red;
+}
