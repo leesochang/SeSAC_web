@@ -1,0 +1,25 @@
+p.lion{
+    background-color: red;
+}
+
+li#tiger {
+    background-color: yellow;
+}
+
+ul > .lion{
+    background-color: greenyellow;
+    font-weight: bold;
+}
+
+#tiger + li {
+    background-color: skyblue;
+}
+
+li.lion ~ li{
+    background-color: orange;
+}
+
+.lion{
+    color: sienna;
+}
+
